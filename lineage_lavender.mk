@@ -11,11 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common RiceDroid stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# riceDroid Flags
 RICE_MAINTAINER := JojiOnThatBeat•ShizukaHinode
 RICE_OFFICIAL := true
 TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GMS := true
 TARGET_GAPPS_ARCH := arm64
+TARGET_ENABLE_BLUR := true
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
