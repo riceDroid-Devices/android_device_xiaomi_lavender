@@ -14,7 +14,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 RICE_MAINTAINER := JojiOnThatBeat•ShizukaHinode
 RICE_OFFICIAL := true
 TARGET_SUPPORTS_QUICK_TAP := true
-WITH_GAPPS := true
+WITH_GMS := true
 TARGET_GAPPS_ARCH := arm64
 
 # Inherit from lavender device
